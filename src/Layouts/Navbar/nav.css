@@ -38,10 +38,9 @@ ul.l-nav li a{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    border: 1px solid green;
+    border: 1px solid #013a01;
     width: 100%;
     height: 100px;
-    margin: 0;
-    background: green;
+    background: #013a01;
     gap: 20rem;
 }

@@ -1,0 +1,42 @@
+.footer .newsletter .signup button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background: green;
+    border: 0px;
+}
+
+.footer .newsletter .signup input{
+    height: 36px;
+    width: 260px;
+    color: green;
+    background: transparent;
+    border: 1px solid rgba(235, 230, 230, 0.651);
+}
+
+.footer .newsletter .signup{
+    margin-top: 10px;
+}
+
+.footer .newsletter p{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer .newsletter{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer{
+    background:#013a01;
+    border: 1px solid #013a01;
+
+}
+
+hr{
+    width: 1200px;
+}
+
