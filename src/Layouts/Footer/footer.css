@@ -85,3 +85,28 @@ hr{
 
 }
 
+.social .icons img{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.social .icons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.social p{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+

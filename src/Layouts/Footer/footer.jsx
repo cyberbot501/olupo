@@ -1,6 +1,11 @@
 import React from 'react'
 import './footer.css'
 import logos from '../../Assets/flat-design-farmers-market-logo_23-2149332945.avif'
+import whatsapp from '../../Assets/whatsapp.png'
+import instagram from '../../Assets/instagram.png'
+import tiktok from '../../Assets/tiktok.png'
+import twitter from '../../Assets/twitter.png'
+
 
 export default function footer() {
   return (
@@ -55,7 +60,15 @@ export default function footer() {
 
         <hr/>
 
-        <div className='social'></div>
+        <div className='social'>
+          <p>Our Social Networks:</p>
+          <div className='icons'>
+              <img src={whatsapp} alt="" />
+              <img src={instagram} alt="" />
+              <img src={twitter} alt="" />
+              <img src={tiktok} alt="" />
+          </div>
+        </div>
     </div>
   )
 }
