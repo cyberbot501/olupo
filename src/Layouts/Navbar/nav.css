@@ -1,0 +1,47 @@
+.s-nav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 1.5rem;
+}
+
+.s-nav p{
+    color: #ffffff;
+    margin-top: -3px;
+    margin-left: -15px;
+
+}
+
+.s-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul.l-nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 2.5rem;
+}
+
+ul.l-nav li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.f-nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid green;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    background: green;
+    gap: 20rem;
+}
