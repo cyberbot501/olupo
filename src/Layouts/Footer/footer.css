@@ -40,3 +40,48 @@ hr{
     width: 1200px;
 }
 
+.main-ref p.tops{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.main-ref .about-f img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.main-ref p{
+    color: rgba(235, 230, 230, 0.651);
+}
+
+.main-ref .useful-link ul{
+    list-style: none;   
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main-ref .useful-link ul a{
+    color: rgba(235, 230, 230, 0.651);
+    text-decoration: none;
+}
+
+.main-ref .get-in a{
+    color: rgba(235, 230, 230, 0.651);
+}
+
+.main-ref .opening span{
+    margin-left: 60px;
+}
+
+.main-ref{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 9rem;
+
+}
+
