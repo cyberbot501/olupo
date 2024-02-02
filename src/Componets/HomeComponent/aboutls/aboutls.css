@@ -1,0 +1,56 @@
+.boutls-w h3{
+    color: #013a01;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.boutls-w{
+    margin-top: 30px;
+}
+
+.boutls-w h2{
+    color: #013a01;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+    width: 500px;
+}
+
+.boutls-w p{
+    color: rgba(32, 32, 32, 0.651);
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    width: 500px;
+}
+
+.boutls-img img{
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.abotls-w p{
+    color: rgba(32, 32, 32, 0.651);
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    width: 500px;
+    text-align: center;
+    margin-top: 12rem;
+}
+
+.abotls-img img{
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.boutls, .boutls1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 50px;
+}

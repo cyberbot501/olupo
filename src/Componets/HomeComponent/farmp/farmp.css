@@ -1,0 +1,49 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 400px); 
+
+}
+
+
+.item {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 0px 0px 0px 30px; 
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+}
+
+.item img{
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    border-radius: 20px ;
+}
+
+.item hr.more{
+    width: 300px;
+}
+
+.item button.read{
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    background: #013a01;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.farmp h2{
+    padding: 40px 0px 40px 590px;
+    color: #013a01;
+}
+
+
+
