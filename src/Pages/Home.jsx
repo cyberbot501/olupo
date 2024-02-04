@@ -5,6 +5,7 @@ import Lstock from '../Componets/HomeComponent/livestock/lstock'
 import Aboutls from '../Componets/HomeComponent/aboutls/aboutls'
 import Farmp from '../Componets/HomeComponent/farmp/farmp'
 import Calendar from '../Componets/HomeComponent/calendar/calendar'
+import News from '../Componets/HomeComponent/news/news'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Aboutls />
         <Farmp />
         <Calendar />
+        <News />
         <Footer />
     </div>
   )
