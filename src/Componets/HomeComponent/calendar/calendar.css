@@ -1,0 +1,52 @@
+.cal h2{
+    color: #013a01;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.cal button.len{
+    width: 200px;
+    height: 50px;
+    background: #013a01;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    box-shadow: 0px 5px 10px 0px#111311;
+}
+
+.cal p{
+    color: rgba(32, 32, 32, 0.651);
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    width: 500px;
+
+}
+
+.cal{
+    margin-top: 30px;
+}
+
+.dar img{
+    width: 650px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.calendar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.cals{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
