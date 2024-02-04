@@ -6,6 +6,7 @@ import Aboutls from '../Componets/HomeComponent/aboutls/aboutls'
 import Farmp from '../Componets/HomeComponent/farmp/farmp'
 import Calendar from '../Componets/HomeComponent/calendar/calendar'
 import News from '../Componets/HomeComponent/news/news'
+import Field from '../Componets/HomeComponent/field/field'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Farmp />
         <Calendar />
         <News />
+        <Field />
         <Footer />
     </div>
   )
