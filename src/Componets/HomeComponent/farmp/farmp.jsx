@@ -1,10 +1,10 @@
 import React from 'react'
 import './farmp.css'
-import lsbreeding from '../../../Assets/liv breeding.jpeg'
+import lsbreeding from '../../../Assets/breaeding-478287121-612x612.jpg'
 import milling from '../../../Assets/feed milling.jpg'
-import tools from '../../../Assets/farming tools.jpeg'
-import fruit from '../../../Assets/fruits.jpeg'
-import chem from '../../../Assets/chem.jpeg'
+import tools from '../../../Assets/trac.jpg'
+import fruit from '../../../Assets/fr.jpg'
+import chem from '../../../Assets/ch.jpeg'
 import lste from '../../../Assets/livestock e.jpg'
 
 export default function farmp() {

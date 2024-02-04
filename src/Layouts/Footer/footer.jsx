@@ -18,7 +18,7 @@ export default function footer() {
           </div>
         </div>
 
-        <hr/>
+        <hr className='fut'/>
 
         <div className='main-ref'>
           <div className='about-f'>
@@ -58,7 +58,7 @@ export default function footer() {
           </div>
         </div>
 
-        <hr/>
+        <hr className='fut'/>
 
         <div className='social'>
           <p>Our Social Networks:</p>
