@@ -2,6 +2,10 @@
     background: url(/src/Assets/livestock-collage-photo-farm-animals-breeding-farm-animals-pig-cow-goat-horse-duck-55054647.webp);
     padding: 140px 0px 90px 150px;
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    filter: brightness(90%);
 }
 
 .lspic p{
