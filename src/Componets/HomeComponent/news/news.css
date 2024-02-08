@@ -1,6 +1,6 @@
 .new img {
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 250px;
 }
 
 .new h3{
@@ -31,5 +31,5 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 4rem;
+    gap: 4.5rem;
 }
