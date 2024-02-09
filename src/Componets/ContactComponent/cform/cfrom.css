@@ -1,0 +1,75 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 800px;
+}
+
+form .name{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+form label{
+    display: flex;
+    flex-direction: column;
+    color: rgba(32, 32, 32, 0.651);
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+span.sform{
+    font-size: 9px;
+}
+
+form input{
+    width: 790px;
+    height: 45px;
+    background: rgba(221, 219, 219, 0.315);
+    border: 1px solid rgba(0, 0, 0, 0.397);
+}
+
+form .name input{
+    width: 381px;
+}
+
+form textarea{
+    width: 790px;
+    height: 100px;
+    background: rgba(221, 219, 219, 0.315);
+    border: 1px solid rgba(0, 0, 0, 0.397);
+}
+
+.ctext h2{
+    color: #013a01;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.ctext p{
+    color: rgba(32, 32, 32, 0.651);
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 350px;
+}
+
+.cform{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0rem;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+form button{
+    width: 150px;
+    height: 60px;
+    border: 2px solid rgba(255, 51, 0, 0.651);
+    background: #ffffff;
+    color: rgba(255, 51, 0, 0.651);
+    font-size: 20px;
+}

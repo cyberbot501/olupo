@@ -1,0 +1,42 @@
+.office h1{
+    font-size: 80px;
+    width: 30px;
+    color: #013a01;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+p.off{
+    color: rgba(32, 32, 32, 0.651);
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    width: 250px;
+}
+
+p.ice{
+    color: rgba(32, 32, 32, 0.651);
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    width: 250px;
+}
+
+p a{
+    color: black;
+}
+
+.m-locate img{
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12rem;
+    margin-top: 10px;
+}
+
