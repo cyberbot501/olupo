@@ -23,18 +23,14 @@ const CForm = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    
     for (const key in formData) {
       if (formData[key].trim() === '') {
         setFormError('Please fill in all fields.');
         return;
       }
     }
-
     
     console.log('Form submitted with data:', formData);
-
-    
     setFormData({
       firstName: '',
       lastName: '',
